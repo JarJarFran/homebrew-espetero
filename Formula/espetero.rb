@@ -6,8 +6,8 @@
 class Espetero < Formula
   desc "Fast LLM inference for Apple silicon with OpenAI and Anthropic APIs"
   homepage "https://github.com/JarJarFran/espetero"
-  url "https://github.com/JarJarFran/espetero/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "7dc47924ea4753a38edd9fc515af05fa331ed49839b1c7a57e56543ba5ddf57a"
+  url "https://github.com/JarJarFran/espetero/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "4129d1302601320e2793499d7fa2a908a08606031598be1c1fbe5f18015cdc29"
   license all_of: ["MIT", "Apache-2.0"] # Apache-2.0: src/engine/clef.{h,cpp}
 
   depends_on arch: :arm64
